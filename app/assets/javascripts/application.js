@@ -12,7 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
-
-window.onload = function() {
-  require('./top.es6');
-};
+//= require react_ujs
+//= require components
