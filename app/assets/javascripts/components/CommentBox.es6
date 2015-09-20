@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-class CommentBox extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
+export default class CommentBox extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
   render() {
     return(
@@ -13,5 +13,3 @@ class CommentBox extends React.Component {
     );
   }
 }
-
-export default CommentBox;
