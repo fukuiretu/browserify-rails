@@ -1,2 +1,2 @@
-window.React = require('react');
-window.CommentBox  = require('./components/CommentBox.es6');
+var app = window.app = global.app = {};
+app.CommentBox = require('./components/CommentBox.es6');
